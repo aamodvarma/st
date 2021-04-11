@@ -2,35 +2,17 @@
 
 st is a simple terminal emulator for X which sucks less.
 
-![Screenshot](http://0x0.st/-T2q.png)
-
-# Requirements
-
-In order to build st you need the Xlib header files.
+![Screenshot](http://0x0.st/-T2T.png)
 
 # Installation
-
-Edit config.mk to match your local setup (st is installed into
-the /usr/local namespace by default).
-
-Afterwards enter the following command to build and install st (if
-necessary as root):
 
 ```sh
 make clean install
 ```
+# Transparency
 
-# Running st
-
-If you did not install st with make clean install, you must compile
-the st terminfo entry with the following command:
+Transparency patch is already applied and can be changed by changing the value of alpha in config.h
 
 ```sh
-tic -sx st.info
+float alpha = 0.8;
 ```
-
-See the man page for additional details.
-
-# Credits
-
-Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
