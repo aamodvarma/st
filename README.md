@@ -2,7 +2,7 @@
 
 st is a simple terminal emulator for X which sucks less.
 
-![Screenshot](https://i.imgur.com/HtHdlPu.png)
+![Screenshot](http://0x0.st/-T2q.png)
 
 # Requirements
 
